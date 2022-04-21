@@ -6,13 +6,21 @@ h1 {
     color: #141414;
 }
 
+h2 {
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+}
+
 #main-menu ul {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     overflow: hidden;
     list-style-type: none;
     background-color: #141414;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
@@ -30,7 +38,13 @@ h1 {
     color: #feffe6;
 }
 
+#main-menu ul li a:hover {
+    background: #33312d;
+}
+
 #main-name {
     font-size: 72px;
     text-align: center;
+    position: relative;
+    padding: 10px;
 }
