@@ -1,18 +1,15 @@
+/* General properties */
 body {
     background: #fef6e4;
     font-family: Helvetica;
     color: #001858;
 }
 
-h1 {
-    color: #001858;
-}
-
 h2 {
     font-size: 48px;
-    color: #001858;
 }
 
+/* Navigation menu properties */
 #main-menu ul {
     position: fixed;
     top: 0;
@@ -36,18 +33,19 @@ h2 {
 #main-menu ul li a {
     display: block;
     text-decoration: none;
-    color: #001858;
 }
 
 #main-menu ul li a:hover {
     background: #fc9ac0;
 }
 
+/* 'Home' properties */
 #main-name {
     font-size: 125px;
     text-align: left;
     margin-left: 20px;
     margin-top: 75px;
+    padding: 20px;
 }
 
 #main-name + p {
@@ -58,23 +56,27 @@ h2 {
     margin-left: 30px;
 }
 
+/* 'Projects' properties */
 #projects {
     text-align: right;
-    margin-top: 350px;
-    margin-right: 5px;
+    margin-top: 325px;
     width: 100%;
+    padding: 40px;
 }
 
+#projects + p {
+    font-size: 40px;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+/* 'About Me' properties */
 #about-me {
     text-align: left;
-    margin-left: 5px;
+    margin-left: 20px;
+    margin-top: 750px;
     width: 100%;
-}
-
-#resume {
-    text-align: right;
-    width: 100%;
-    margin-right: 5px;
 }
 
 #about-me + p {
@@ -84,12 +86,12 @@ h2 {
     margin-left: 30px;  
 }
 
-#projects + p {
-    font-size: 40px;
-    width: 50%;
-    float: right;
+/* 'Resume' properties */
+#resume {
     text-align: right;
-    margin-right: 30px;
+    width: 100%;
+    margin-top: 350px;
+    padding: 10px;
 }
 
 #resume + p {
@@ -97,5 +99,5 @@ h2 {
     width: 50%;
     float: right;
     text-align: right;
-    margin-left: 30px;
+    margin-bottom: 650px;
 }
