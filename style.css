@@ -7,6 +7,13 @@ body {
 
 h2 {
     font-size: 48px;
+    padding: 30px;;
+}
+
+p {
+    font-size: 40px;
+    width: 50%;
+    padding: 30px;
 }
 
 /* Navigation menu properties */
@@ -40,64 +47,51 @@ h2 {
 }
 
 /* 'Home' properties */
-#main-name {
-    font-size: 125px;
+#home {
     text-align: left;
-    margin-left: 20px;
-    margin-top: 75px;
-    padding: 20px;
+    float: left;
 }
 
-#main-name + p {
-    font-size: 40px;
-    width: 50%;
-    text-align: left;
-    margin-top: 175px;
-    margin-left: 30px;
+#home h1 {
+    font-size: 125px;
+    padding: 30px;
+}
+
+#home p {
 }
 
 /* 'Projects' properties */
 #projects {
     text-align: right;
-    margin-top: 325px;
-    width: 100%;
-    padding: 40px;
+    float: right;
 }
 
-#projects + p {
-    font-size: 40px;
-    width: 50%;
-    float: right;
-    text-align: right;
+#projects h2 {
+}
+
+#projects p {
 }
 
 /* 'About Me' properties */
 #about-me {
     text-align: left;
-    margin-left: 20px;
-    margin-top: 750px;
-    width: 100%;
+    float: left;
 }
 
-#about-me + p {
-    font-size: 40px;
-    width: 50%;
-    text-align: left;
-    margin-left: 30px;  
+#about-me h2 {
+}
+
+#about-me p {
 }
 
 /* 'Resume' properties */
 #resume {
     text-align: right;
-    width: 100%;
-    margin-top: 350px;
-    padding: 10px;
+    float: right;
 }
 
-#resume + p {
-    font-size: 40px;
-    width: 50%;
-    float: right;
-    text-align: right;
-    margin-bottom: 650px;
+#resume h2 {
+}
+
+#resume p {
 }
