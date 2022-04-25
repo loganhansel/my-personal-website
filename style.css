@@ -67,7 +67,7 @@ p {
 #projects {
     text-align: right;
     float: right;
-    margin-bottom: 200px;
+    margin-bottom: 450px;
     width: 100%;
 }
 
@@ -75,6 +75,13 @@ p {
 }
 
 #projects p {
+    float: right;
+}
+
+#projects img {
+    width: 500px;
+    float: right;
+    margin-right: 200px;
 }
 
 /* 'About Me' properties */
@@ -98,7 +105,7 @@ p {
 #resume {
     text-align: right;
     float: right;
-    margin-bottom: 450px;
+    margin-bottom: 425px;
     width: 100%;
 }
 
@@ -111,7 +118,6 @@ p {
 /*'Contact' properties */
 #contact {
     text-align: center;
-    float: bottom;
     width: 100%;
 }
 
